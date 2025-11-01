@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pid_tuner_desktop"
+version = "0.1.0"
+description = "PID Tuner & Loop Analyzer – Desktop (PySide6)"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{ name = "Nazmul Hasan" }]
+dependencies = [
+  "PySide6>=6.7",
+  "pyqtgraph>=0.13",
+  # when we wire to your core, add: "pid_tuner @ file:///<path to your repo>"
+]
+
+[project.optional-dependencies]
+dev = ["pytest", "ruff", "pyinstaller"]
+
+[tool.ruff]
+line-length = 100

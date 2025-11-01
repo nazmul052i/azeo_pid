@@ -24,6 +24,10 @@ wheels/
 .installed.cfg
 *.egg
 MANIFEST
+/.qt_cache
+/*.spec
+/runtime/sessions/*.db
+/runtime/cache/**
 
 # PyInstaller
 #  Usually these files are written by a python script from a template

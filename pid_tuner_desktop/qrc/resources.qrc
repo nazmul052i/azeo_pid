@@ -1,0 +1,16 @@
+<RCC version="1.0">
+  <!-- Icons used by toolbar / app icon -->
+  <qresource prefix="/icons">
+    <file>icons/app.ico</file>
+    <file>icons/play.svg</file>
+    <file>icons/stop.svg</file>
+    <file>icons/tune.svg</file>
+    <file>icons/database.svg</file>
+  </qresource>
+
+  <!-- Theme stylesheet -->
+  <qresource prefix="/qss">
+    <!-- Note: dark.qss lives in ../qss relative to this .qrc file -->
+    <file alias="dark.qss">../qss/dark.qss</file>
+  </qresource>
+</RCC>
